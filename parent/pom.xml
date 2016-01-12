@@ -478,9 +478,8 @@
 		</repository>
 		<repository>
 			<id>orbit-for-junit</id>
-			<!-- this URL has been archived; perhaps time for something newer?
-			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20110523182458/repository/</url> -->
-			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20151118145958/repository/</url>
+			<!-- use old URL (contains JUnit 3.8.2, 4.7.0, 4.8.1, 4.8.2) because tests depend on old JUnit -->
+			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20110523182458/repository/</url> 
 			<layout>p2</layout>
 			<snapshots>
 				<enabled>true</enabled>
