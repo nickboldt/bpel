@@ -2,22 +2,21 @@
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion> 
 	<parent>
-	  <groupId>org.eclipse.bpel</groupId>
-	  <artifactId>org.eclipse.bpel.parent.pom</artifactId>
-	  <version>1.0.5.Final</version>
-	  <relativePath>../../parent/pom.xml</relativePath>
+		<groupId>org.eclipse.bpel</groupId>
+		<artifactId>org.eclipse.bpel.tests</artifactId>
+		<version>1.0.5-SNAPSHOT</version>
 	</parent>
 	
 	<groupId>org.eclipse.bpel.tests</groupId>
 	<artifactId>org.eclipse.bpel.ui.tests</artifactId> 
-	<version>1.0.5.Final</version>
 	<packaging>eclipse-test-plugin</packaging>
 	
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.sonatype.tycho</groupId>
-				<artifactId>maven-osgi-test-plugin</artifactId>
+				<!-- maven-osgi-*-plugin became tycho-*-plugin in Tycho 0.12 -->
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
 				<version>${tycho-version}</version>
 				
 				<configuration>
