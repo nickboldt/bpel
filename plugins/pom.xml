@@ -1,15 +1,13 @@
 <project
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<parent>
-		<artifactId>org.eclipse.bpel.parent.pom</artifactId>
 		<groupId>org.eclipse.bpel</groupId>
-		<version>1.0.5.Final</version>
-		<relativePath>../parent/pom.xml</relativePath>
+		<artifactId>org.eclipse.bpel.root</artifactId>
+		<version>1.0.5-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.eclipse.bpel</groupId>
-	<artifactId>plugins</artifactId>
-	<name>bpel.plugins</name>
+	<artifactId>org.eclipse.bpel.plugins</artifactId>
 	<packaging>pom</packaging>
 
 	<profiles>		
