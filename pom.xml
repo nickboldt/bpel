@@ -1,19 +1,21 @@
 <project
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.eclipse</groupId>
-	<artifactId>tests</artifactId>
-	<name>bpel.tests</name>
-	<version>1.0.5.Final</version>
+	<parent>
+		<artifactId>org.eclipse.bpel.parent.pom</artifactId>
+		<groupId>org.eclipse.bpel</groupId>
+		<relativePath>parent/pom.xml</relativePath>
+		<version>1.0.5-SNAPSHOT</version>
+	</parent>
+	<groupId>org.eclipse.bpel</groupId>
+	<artifactId>org.eclipse.bpel.root</artifactId>
 	<packaging>pom</packaging>
 	<modules>
-		<!-- must build parent BEFORE building the rest of this project 
-	     	<module>parent</module> -->
-
+	    <module>parent</module>
 		<module>plugins</module>
-		<!-- <module>examples></module> -->
 		<module>features</module>
 		<module>site</module>
-		<!--  <module>tests</module>  -->
+		<module>tests</module>
+		<!-- nothing to build here yet <module>examples></module> -->
 	</modules>
 </project>
