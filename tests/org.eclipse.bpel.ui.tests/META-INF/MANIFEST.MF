@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Tests - BPEL Editor
 Bundle-SymbolicName: org.eclipse.bpel.ui.tests;singleton:=true
-Bundle-Version: 1.0.5.Final
+Bundle-Version: 1.0.5.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
 Bundle-Vendor: Eclipse.org

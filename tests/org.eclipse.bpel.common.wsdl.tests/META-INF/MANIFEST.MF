@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Tests - SOA Commons for WSDL and XML Schemas
 Bundle-SymbolicName: org.eclipse.bpel.common.wsdl.tests;singleton:=true
-Bundle-Version: 1.0.5.Final
+Bundle-Version: 1.0.5.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Vendor: Eclipse.org
 Bundle-ActivationPolicy: lazy
